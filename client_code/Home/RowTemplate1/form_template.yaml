@@ -1,0 +1,23 @@
+container:
+  type: DataRowPanel
+  properties: {role: null, bold: false, align: center, spacing_above: none, background: '', underline: false, font: '', auto_display_data: true, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: ''}
+components:
+- type: Label
+  properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: ''}
+  name: label_1
+  layout_properties: {column: WRSVQH}
+  data_bindings:
+  - {property: text, code: 'self.item[''level'']'}
+- type: Label
+  properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: ''}
+  name: label_2
+  layout_properties: {column: JJJXPT}
+  data_bindings:
+  - {property: text, code: 'self.item[''half-sesh'']'}
+- type: Label
+  properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: ''}
+  name: label_3
+  layout_properties: {column: OGOGUA}
+  data_bindings:
+  - {property: text, code: 'self.item[''full-sesh'']'}
+is_package: true

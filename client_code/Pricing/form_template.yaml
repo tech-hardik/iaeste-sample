@@ -1,0 +1,244 @@
+container:
+  type: ColumnPanel
+  properties: {role: null, col_widths: '{}', spacing_above: none, background: '', wrap_on: mobile, col_spacing: medium, foreground: '', spacing_below: none, visible: true, border: '', tooltip: ''}
+components:
+- type: ColumnPanel
+  properties: {role: start-header, col_widths: '{}', spacing_above: none, background: '', wrap_on: mobile, col_spacing: medium, foreground: '', spacing_below: none, visible: true, border: '', tooltip: ''}
+  name: card_9
+  layout_properties: {grid_position: 'HPVAWB,DTDLEA', full_width_row: true}
+  components:
+  - type: Spacer
+    properties: {visible: true, spacing_above: small, spacing_below: small, height: '190', tooltip: ''}
+    name: spacer_7
+    layout_properties: {grid_position: 'JTRWDS,VPQBMV'}
+  - type: Label
+    properties: {role: headline, bold: false, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:White', spacing_below: medium, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: see what we have to offer.}
+    name: label_37
+    layout_properties: {grid_position: 'NJEMSZ,DEWCDU'}
+  - type: Label
+    properties: {role: null, bold: false, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:White', spacing_below: small, visible: true, border: '', italic: false, font_size: 18, tooltip: '', text: 'from group test prep classes to individualized tutoring sessions across a range of subjects, teachme has got you covered.'}
+    name: label_38
+    layout_properties: {grid_position: 'CEHQDB,ZDKAYM'}
+- type: ColumnPanel
+  properties: {role: card, col_widths: '{}', spacing_above: none, background: '', wrap_on: mobile, col_spacing: medium, foreground: '', spacing_below: none, visible: true, border: '', tooltip: ''}
+  name: card_1
+  layout_properties: {grid_position: 'UIGIXZ,EMROYR', full_width_row: true}
+  components:
+  - type: Label
+    properties: {role: subheading, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: group classes.}
+    name: label_1
+    layout_properties: {grid_position: 'ZKCWFG,ZKWFEU'}
+  - type: ColumnPanel
+    properties: {role: rounded-border, col_widths: '{}', spacing_above: small, background: '', wrap_on: mobile, col_spacing: medium, foreground: '', spacing_below: small, visible: true, border: '', tooltip: ''}
+    name: card_3
+    layout_properties: {grid_position: 'TWSUNI,MQUCGW'}
+    components:
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: large, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: 20, tooltip: '', text: ACT prep}
+      name: label_2
+      layout_properties: {grid_position: 'MSMXWL,LAGXRJ'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: 'english, reading and writing'}
+      name: label_5
+      layout_properties: {grid_position: 'IKIZKO,FJAJRL'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '30-minute session: $15/week'}
+      name: label_6
+      layout_properties: {grid_position: 'AHMQMI,INSMBB'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: math and science}
+      name: label_7
+      layout_properties: {grid_position: 'NBSYQZ,UECRWR'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '30-minute session: $15/week'}
+      name: label_8
+      layout_properties: {grid_position: 'HITGER,OWXJQD'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: full test prep}
+      name: label_9
+      layout_properties: {grid_position: 'BXGSWK,NJMEEZ'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: large, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '60-minute session: $25/week'}
+      name: label_10
+      layout_properties: {grid_position: 'OZABFI,USOSMS'}
+  - type: ColumnPanel
+    properties: {role: rounded-border, col_widths: '{}', spacing_above: small, background: '', wrap_on: mobile, col_spacing: medium, foreground: '', spacing_below: small, visible: true, border: '', tooltip: ''}
+    name: card_4
+    layout_properties: {grid_position: 'TWSUNI,DZWXGG'}
+    components:
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: large, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: 20, tooltip: '', text: SAT prep}
+      name: label_3
+      layout_properties: {grid_position: 'FDSZGR,DSACEK'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: critical reading and writing}
+      name: label_11
+      layout_properties: {grid_position: 'TJXEUQ,ZXIVXZ'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: 30-minute session $15/week}
+      name: label_12
+      layout_properties: {grid_position: 'ESNLAF,MRPDQY'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: math}
+      name: label_13
+      layout_properties: {grid_position: 'VFCYFA,VBQNVE'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '30-minute session: $15/week'}
+      name: label_14
+      layout_properties: {grid_position: 'EBKZCQ,KHHPHP'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: full test prep}
+      name: label_15
+      layout_properties: {grid_position: 'WXWUVX,FLDAKH'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: large, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '60-minute session: $25/week'}
+      name: label_16
+      layout_properties: {grid_position: 'ZXIWZZ,OCZZNX'}
+  - type: ColumnPanel
+    properties: {role: rounded-border, col_widths: '{}', spacing_above: small, background: '', wrap_on: mobile, col_spacing: medium, foreground: '', spacing_below: small, visible: true, border: '', tooltip: ''}
+    name: card_5
+    layout_properties: {grid_position: 'TWSUNI,UPNOMD'}
+    components:
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: large, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: 20, tooltip: '', text: GRE prep}
+      name: label_4
+      layout_properties: {grid_position: 'UPIUXW,CWCEBI'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: verbal reasoning}
+      name: label_17
+      layout_properties: {grid_position: 'ZSQKSW,YEQZJC'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '30-minute session: $15/week'}
+      name: label_18
+      layout_properties: {grid_position: 'ABBWDK,ALHQHW'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: quantitative reasoning}
+      name: label_19
+      layout_properties: {grid_position: 'ZRKKWY,WOSELG'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '30-minute session: $15/week'}
+      name: label_20
+      layout_properties: {grid_position: 'CJIBRT,VNRMHK'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: none, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: critical writing}
+      name: label_21
+      layout_properties: {grid_position: 'JLBSYG,LZKAHX'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: none, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: large, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '30-minute session: $15/week'}
+      name: label_22
+      layout_properties: {grid_position: 'ILFUTV,WMNUFJ'}
+- type: ColumnPanel
+  properties: {role: card, col_widths: '{}', spacing_above: none, background: '#ECECEC', wrap_on: mobile, col_spacing: medium, foreground: '', spacing_below: none, visible: true, border: '', tooltip: ''}
+  name: card_2
+  layout_properties: {grid_position: 'NQVPTI,WKIYJG', full_width_row: true}
+  components:
+  - type: Label
+    properties: {role: subheading, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: individual sessions.}
+    name: label_23
+    layout_properties: {grid_position: 'AMSJUI,SQDNFO'}
+  - type: Label
+    properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: 16, tooltip: '', text: Our tutors have expertise across a variety of subjects. We offer pricing plans based on the tutor’s level of experience.}
+    name: label_24
+    layout_properties: {grid_position: 'QTNHIQ,LSIRRS'}
+  - type: Spacer
+    properties: {height: 20}
+    name: spacer_9
+    layout_properties: {grid_position: 'BHEEPN,JPVMJS'}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_2
+    layout_properties: {grid_position: 'SXODWX,FWPVCU'}
+  - type: DropDown
+    properties:
+      role: text-box-border
+      include_placeholder: true
+      bold: false
+      align: full
+      placeholder: available subjects
+      spacing_above: small
+      background: ''
+      underline: false
+      font: ''
+      foreground: ''
+      items: [AP English, AP Calculus, AP Physics, AP World History, AP Computer Science, French, Spanish, German, Latin, Geometry, Trigonometry, Biology, Chemistry]
+      spacing_below: small
+      visible: true
+      border: ''
+      italic: false
+      enabled: true
+      font_size: 14
+      tooltip: ''
+    name: drop_down_1
+    layout_properties: {grid_position: 'SXODWX,LHKEJT'}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_1
+    layout_properties: {grid_position: 'SXODWX,LXOSCS'}
+  - type: Spacer
+    properties: {height: 19}
+    name: spacer_8
+    layout_properties: {grid_position: 'WTLNIP,UICQPO'}
+  - type: ColumnPanel
+    properties: {role: rounded-border, col_widths: '{}', spacing_above: small, background: '', wrap_on: mobile, col_spacing: medium, foreground: '', spacing_below: small, visible: true, border: '', tooltip: ''}
+    name: card_6
+    layout_properties: {grid_position: 'WQEJOQ,WOESGL'}
+    components:
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: large, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: 20, tooltip: '', text: level 1}
+      name: label_25
+      layout_properties: {grid_position: 'BRQYXA,WGZMZB'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. '}
+      name: label_28
+      layout_properties: {grid_position: 'MBBDOQ,RDPPYE'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '30-minute session: $20/week'}
+      name: label_31
+      layout_properties: {grid_position: 'IDDWNM,PHLLZH'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: large, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '60-minute session: $35/week'}
+      name: label_34
+      layout_properties: {grid_position: 'NUJPTF,UPMCTO'}
+  - type: ColumnPanel
+    properties: {role: rounded-border, col_widths: '{}', spacing_above: small, background: '', wrap_on: mobile, col_spacing: medium, foreground: '', spacing_below: small, visible: true, border: '', tooltip: ''}
+    name: card_7
+    layout_properties: {grid_position: 'WQEJOQ,JWNVQU'}
+    components:
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: large, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: 20, tooltip: '', text: level 2}
+      name: label_26
+      layout_properties: {grid_position: 'YTEDFE,YZIDAX'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: vestibulum ut efficitur mauris. nulla vel justo et nibh pulvinar.}
+      name: label_29
+      layout_properties: {grid_position: 'AILUJQ,NRJIUD'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '30-minute session: $30/week'}
+      name: label_32
+      layout_properties: {grid_position: 'NLLJCN,JSTBXB'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: large, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '60-minute session: $55/week'}
+      name: label_35
+      layout_properties: {grid_position: 'QABHPL,COMJXF'}
+  - type: ColumnPanel
+    properties: {role: rounded-border, col_widths: '{}', spacing_above: small, background: '', wrap_on: mobile, col_spacing: medium, foreground: '', spacing_below: small, visible: true, border: '', tooltip: ''}
+    name: card_8
+    layout_properties: {grid_position: 'WQEJOQ,SWBWQL'}
+    components:
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: large, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: 20, tooltip: '', text: level 3}
+      name: label_27
+      layout_properties: {grid_position: 'CTPCRJ,QHEJBS'}
+    - type: Label
+      properties: {role: null, bold: false, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: '', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. '}
+      name: label_30
+      layout_properties: {grid_position: 'LUQSNK,GPXILC'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: small, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '30-minute session: $40/week'}
+      name: label_33
+      layout_properties: {grid_position: 'XJJGHS,QWIWBO'}
+    - type: Label
+      properties: {role: null, bold: true, align: center, spacing_above: small, background: '', icon: '', underline: false, font: '', icon_align: left, foreground: 'theme:Primary 500', spacing_below: large, visible: true, border: '', italic: false, font_size: null, tooltip: '', text: '60-minute session: $75/week'}
+      name: label_36
+      layout_properties: {grid_position: 'EVJHTE,AXZCIE'}
+is_package: true
